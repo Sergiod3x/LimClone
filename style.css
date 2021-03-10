@@ -1,0 +1,88 @@
+/* Importo il font utilizzato nel sito ufficiale di Lime */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* imposto lo stesso font per tutto il testo */
+*{
+  font-family: 'Poppins', Helvetica, sans-serif;
+}
+/* Sfondo della pagina */
+body {
+  background-image:url("background.jpg");
+  background-repeat: no-repeat;
+}
+/* Il main viene utilizzato per il rettangolo in "evidenza" */
+main{
+  width:1250px;
+  height: 860px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -500px;
+  margin-left: -625px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+/* Il logo viene gestito come background della classe logo */
+.logo{
+   height: 100px;
+   width:500px;
+   background-size: contain;
+   background-image:url("logo.png");
+   background-repeat: no-repeat;
+   position: absolute;
+   top: 12%;
+   left: 40.5%;
+}
+#titolo{
+  color: #00ff00;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+/* Struttura e posizionamento della parte "principale/interattiva" */
+.core{
+  width:1100px;
+  height: 600px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-top: -230px;
+  margin-left: -550px;
+}
+/* Riga con i comandi  */
+.comandi{
+  width:1050px;
+  height: 36px;
+  padding-top: 10px;
+  position: relative;
+  background-color: #00ff00;;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Monopattini{
+  color: white;
+}
+.id-monopattino{
+  font-size: 27px;
+}
+.check{
+  margin-right: 10px;
+}
+/* Simulazione charge bar tramite colorazione del campo */
+.percentuale{
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height: 27px;
+}
+/* Ogni charge bar ha un colore e una lunghezza differente  */
+#mono1{
+    background-color: rgb(255, 173, 51);
+    width:400px;
+  }
+#mono2{
+    background-color: #00ff00;
+    width:650px;
+  }
+#mono3{
+    background-color: rgb(205, 65, 65);
+    width:150px;
+}
